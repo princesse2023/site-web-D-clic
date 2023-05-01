@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 120px;
+    height: 60px;
+    border-radius: 20px;
+}
+.carreblrue1{
+    width: auto;
+    height: 530px;
+    background-color:#7BB8EE
+}
+.formations button{
+margin-left: 600px;
+background-color:#827F9E;
+border-radius: 40px;
+margin-top: 15px;
+
+}
+.card-group{
+    gap: 8px;
+    margin-top: 10px;
+}
+body{
+    overflow-x: hidden;
+}
+.pays button{
+    margin-left: 555px;
+    background-color:#827F9E;
+    border-radius: 40px;
+    margin-top: 15px;
+}
+.bf{
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 40px; 
+}
+.carrebleue2{
+    width: auto;
+    height: 470px;
+    margin-top: 70px;
+    background-color:#7BB8EE;
+}
+.temoin button{
+    margin-left: 600px;
+background-color:#827F9E;
+border-radius: 40px;
+margin-top: 15px;
+}
+.card-group2{
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+.POUYA{
+    width:auto;
+    height: 200px;
+}
+.carrenoir{
+    width: auto;
+    height: 400px;
+    background-color: black;
+    opacity: 100%;
+
+}
+.clicfooter{
+    width: 85px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.textefooter{
+    color: beige;
+    opacity: 50%;
+    margin-top: 30px;
+}
+
+  input[type=text], textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+  }
+  /* label{margin-right: 0px;
+    margin-left: 0px;
+    width: 40%;}
+   */
+  input[type=submit] {
+    background-color: #f00d0d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0c0480;
+  }
+  
+  .container_1{
+position: absolute;
+    /* Ajouter box-sizing */
+    box-sizing : border-box;
+    border-radius:0px;
+    background-color:#0f0f0f;
+    opacity: 80%;
+    padding:0px;
+    width: 10%;
+    /* redéfinition 400 + 2*20 */
+    
+    margin:0 auto;
+   left: 840px;
+   bottom: -1650px;
+   
+  }
+ .Formulaire  {
+    color:white;
+   font-size: 30px;
+  }
+  .navbar{
+    position: fixed;
+    opacity: 80%;
+  }
+  .nav-item{
+    font-weight: bold;
+  }
+  .face{
+    width: 30px;
+  }
+  .face2{
+    width: 40px;
+  }
+  .CI2{
+    position: absolute;
+    left: 955px;
+
+  }
+  .CI3{
+    position: absolute;
+    left: 1150px;
+
+  }
+  .nompays{
+    display: flex;
+    margin-top: 10px;
+    gap: 100px;
+    margin-left: 100px;
+  }
+  
+
