@@ -3,16 +3,19 @@
     padding: 0;
 }
 .logo{
+  
     width: 120px;
     height: 60px;
     border-radius: 20px;
 }
 .carreblrue1{
+ 
     width: auto;
     height: 530px;
     background-color:#7BB8EE
 }
 .formations button{
+ 
 margin-left: 600px;
 background-color:#827F9E;
 border-radius: 40px;
@@ -20,6 +23,7 @@ margin-top: 15px;
 
 }
 .card-group{
+ 
     gap: 8px;
     margin-top: 10px;
 }
@@ -27,6 +31,7 @@ body{
     overflow-x: hidden;
 }
 .pays button{
+  
     margin-left: 555px;
     background-color:#827F9E;
     border-radius: 40px;
@@ -63,7 +68,6 @@ margin-top: 15px;
     height: 400px;
     background-color: black;
     opacity: 100%;
-
 }
 .clicfooter{
     width: 85px;
@@ -76,7 +80,6 @@ margin-top: 15px;
     opacity: 50%;
     margin-top: 30px;
 }
-
   input[type=text], textarea, input[type=email] {
     width: 100%;
     padding: 12px;
@@ -101,11 +104,9 @@ margin-top: 15px;
     border-radius: 0px;
     cursor: pointer;
   }
-  
   input[type=submit]:hover {
     background-color: #0c0480;
   }
-  
   .container_1{
 position: absolute;
     /* Ajouter box-sizing */
@@ -154,6 +155,108 @@ position: absolute;
     margin-top: 10px;
     gap: 100px;
     margin-left: 100px;
+}
+/* .navbar_1{
+  flex-wrap: wrap;
+} */
+
+@media only screen and (max-width: 760px){
+  .navbar_1{
+    flex-direction: column;
+    
   }
+  /* .fond{
+    display: none;
+  } */
+}
+@media only screen and (max-width: 990px){
+  .navbar_1{
+    flex-wrap: wrap;
+  }
+  .fond{
+    width: auto;
+    border-radius: 20px;
+  }
+  .carreblrue1{
+    width: auto;
+    border-radius: 0px;
+    height: 1353px;
+  }
+  .formations button{
+    width: 150px;
+    background-color: #f00d0d;
+    margin-left: 85px;
+  }
+  .card-group{
+    flex-direction: column;
+    width:auto;
+  }
+  .pays button{
+    margin-top: 5px;
+    margin-left: 85px;
+    background-color: red;
+  }
+  .bf{
+    display: none;
+  }
+  .nompays{
+    flex-direction: column-reverse;
+    gap: 20px;
+    color: black
+  }
+  .CI2{
+    display: none;
+  }
+  .CI3{
+    display: none;
+  }
+  .carrebleue2{
+    width: auto;
+    border-radius: 0px;
+    height: 880px;
+  }
+  .temoin button{
+    margin-left: 95px;
+    width: 150px;
+  }
+  .card-group2{
+    flex-direction: column;
+  }
+  .card-title1{
+    color: rgb(14, 14, 13);
+    font-size: small;
+
+    
+  }
+  .card-text1{
+    display: none;
+
+  }
+  .container_1{
+    margin-bottom:-940px;
+    position: absolute;
+    left: 100px;
+    display: none;
+    
+    
+  }
+  .carrenoir{
+    width: 100%;
   
+  }
+  .textefooter{
+    
+
+  }
+
+}
+.form-title:hover{
+  animation-name:zoom-in;
+  animation-duration:0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes zoom-in{
+  from{ transform: scale(1);}
+  to{ transform: scale(1.2);}
+}
 
